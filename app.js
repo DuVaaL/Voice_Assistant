@@ -8,7 +8,7 @@ const stopButton = document.querySelector('#stop');
 let voices=[];
 const message = new SpeechSynthesisUtterance();
 message.text = document.querySelector('[name="text"]').value ;
-message.lang = navigator.language ;
+// message.lang = navigator.language ;
 
 // Functions
 
